@@ -1,0 +1,20 @@
+.App {
+  width: 100%;
+  display: flex;
+}
+
+.DashBoardPage {
+  width: 100%;
+  display: flex;
+}
+
+.dash-view {
+  width: 80%;
+  min-width: 600px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary_color);
+  color: var(--primary_text_color);
+}

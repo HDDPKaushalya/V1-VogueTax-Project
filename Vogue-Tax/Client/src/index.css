@@ -1,0 +1,62 @@
+:root {
+  font-size: 14px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  --primary_color: #1f2227;
+  --secondray_color: #0e1113;
+  --ternary_color: #2f2f2f;
+  --primary_text_color: aliceblue;
+  --input-text-color: rgb(230, 230, 230);
+  --placeholder-color: #b8b8b8;
+  --base-gradient: linear-gradient(45deg, #383838, #2D2D2D);
+  --login-div-gradient: linear-gradient(90deg, rgba(149, 149, 149, .35), rgba(100, 100, 100, .35));
+  --input-box-gradient: linear-gradient(0deg, #dededc6a, #afb3b36a);
+  --scrollbar-base-color: rgba(74, 74, 74, 0.7);
+  --scrollbar-slider-color: rgba(240, 248, 255, 0.5);
+  --menu_hover_bg: linear-gradient(135deg, #2290fd, #24ff91);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --primary_color: white;
+    --secondray_color: #f1f3f5;
+    --ternary_color: #e9e8e8;
+    --primary_text_color: #1f2227;
+    --input-text-color: rgb(29, 29, 29);
+    --placeholder-color: #8e8e8e;
+    --base-gradient: linear-gradient(45deg, #fefefe, #e8e7e7);
+    --login-div-gradient: linear-gradient(90deg, rgba(227, 227, 227, 0.35), rgba(163, 163, 163, 0.35));
+    --input-box-gradient: linear-gradient(0deg, #9d9b9b6a, #8080806a);
+    --scrollbar-base-color: #e8e8e8;
+    --scrollbar-slider-color: rgba(74, 74, 74, 0.3);
+    --menu_hover_bg: linear-gradient(135deg, #2290fd, #24ff91);
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: all 0.3s ease;
+}
+
+@font-face {
+  font-family: sfdisplaypro;
+  src: url("./assets/fonts/sfprodisplayregular.otf");
+}
+
+@font-face {
+  font-family: productsansregular;
+  src: url("./assets/fonts/productsansregular.ttf");
+}
+
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+}
+
